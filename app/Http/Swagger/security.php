@@ -5,9 +5,10 @@
  */
 
 /**
- *  @OAS\SecurityScheme(
+ *  @oa\SecurityScheme(
  *       securityScheme="bearerAuth",
  *       type="http",
- *       scheme="bearer"
+ *       scheme="bearer",
+ *       bearerFormat="JWT"
  *   )
  */
